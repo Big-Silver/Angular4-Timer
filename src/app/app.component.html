@@ -1,0 +1,19 @@
+<div>    
+    <h1>
+        {{hoursDisplay ? hoursDisplay : '00'}} : {{(minutesDisplay) && (minutesDisplay <= 59) ? minutesDisplay : '00'}} : {{(secondsDisplay) && (secondsDisplay <= 59) ? secondsDisplay : '00'}} <br/>
+    </h1>
+    <div class="timer-control">
+        <button class="time-button" [disabled]="!sSTBtn" (click)="startTimer()">
+            {{start_btn}}
+        </button>
+        <button class="time-button" [disabled]="!sSPBtn" (click)="stopTimer()">
+            {{stop_btn}}
+        </button>
+        <button class="time-button" [disabled]="!sREBtn" (click)="resetTimer()">
+            {{reset_btn}}
+        </button>
+        <button class="time-button" [disabled]="!sWTBtn" (click)="waitTimer()">
+            {{wait_btn}}
+        </button>       
+    </div>
+</div>

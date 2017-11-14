@@ -1,0 +1,8 @@
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+@import "variables";
+
+body {
+  background-color: $white;
+  color: $black;
+  -webkit-font-smoothing: antialiased;
+}
