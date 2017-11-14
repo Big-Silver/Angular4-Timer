@@ -1,4 +1,5 @@
 # Angular 4 - Timer
+I built the Timer(Start/Pause, Reset, Wait) using Angular4 and Observable.
 
 - install dependencies
 ```
